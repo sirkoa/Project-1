@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- ================== -->
+  <!-- GIVE YOUR APP A SICK NAME -->
+  <title></title>
+    <!-- ================== -->
+  <!-- LINK BOOSTRAP STYLESHEET -->
+<link rel="stylesheet" href="https://blackrockdigital.github.io/startbootstrap-shop-homepage/vendor/bootstrap/css/bootstrap.min.css">
+  <!-- Add your own styles in here -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+  <!-- ================== -->
+
+  <!-- This is a mix between custom styling and Bootstrap -->
+  <!-- Look in style.css for heading styles -->
+  <div class="heading row align-items-center justify-content-center">
+    <!-- Bootstrap -->
+    <div class="col-9">
+      <!-- Custom -->
+      <div class="heading-content text-center">
+        <h1>Tweettone</h1>
+
+        <!-- YOU'LL BE TYING THIS TO A JQUERY CLICK EVENT TO TRIGGER A BACKGROUND IMAGE CHANGE -->
+        <button id="background-change" class="btn btn-block btn-lg btn-outline-warning">Change Background</button>
+      </div>
+    </div>
+  </div>
+      <!-- THE ABOVE PART IS ALL SET FOR YOU, JUST UNDERSTAND HOW IT LOOKS THE WAY IT LOOKS VIA BOOTSTRAP & THE STYLE.CSS STYLES -->
+      <!-- ================== -->
+
+  <div class="main-body">
+    <div class="container">
+
+      <div class="row align-items-center justify-content-center">
+        
+        <div class="col-9 ">
+          <!-- CREATE A FORM THAT SITS ON A SINGLE LINE (SEE FORM-ROWS IN BOOTSTRAP) -->
+
+          <!-- THIS FORM NEEDS A TEXT <INPUT> TO CAPTURE A TWITTER SEARCH TERM  -->
+
+          <!-- ADD A SUBMIT BUTTON SO ON CLICK, IT'LL TRIGGER A JQUERY EVENT TO CAPTURE THE ABOVE FORM INPUT-->
+
+          <form>
+            <div class="form-row justify-content-center">
+              <div class="col-6 form-group">
+                <input type="text" class="form-control form-control-lg" id= "searchterm" placeholder="Tweet Term">
+              </div>
+              <div class="form-group col-3">
+              <button id ="submit" class ="btn btn-lg btn-dark btn-block">submit</button>
+              </div>
+            </div>
+          </form>
+         
+        </div>
+      </div>
+
+      <div class="row ">
+          <div class="col-12 text-center">
+            <h2>Now displaying tweets about</h2> 
+            <!-- USE JQUERY TO SELECT & UPDATE THIS H3 ON LOAD AND ON NEW TWEET SEARCH TO LET USERS KNOW THE TERM WE'RE DISPLAYING TWEETS FOR  -->
+            <h3 id="tweet-term" ></h3>
+          </div>
+        </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          
+            <div class="card-columns" id="tweets">
+
+              <!-- ALL TWEET CONTENT WILL BE PRINTED OUT IN HERE, LOOK INTO CARDS AND CARD-COLUMNS ON BOOTSTRAP (IT'S A BOOTSTRAP 4 THING) -->
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+
+</html>
