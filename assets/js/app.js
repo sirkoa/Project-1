@@ -66,7 +66,7 @@ $(document).ready(function () {
                   tweetSection.addClass("tweet card");
 
                   var cardBody = $("<div>");
-                  cardBody.addClass("card-body");
+                  cardBody.addClass("card-body cardbg");
 
                   var tweetUser = $("<h4>");
                   tweetUser.addClass("card-title");

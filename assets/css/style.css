@@ -42,3 +42,6 @@ html, body {
 .analyze {
   margin-bottom: 10px;
 }
+.cardbg {
+  background-color: lightgreen;
+}
