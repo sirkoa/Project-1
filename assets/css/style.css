@@ -3,13 +3,13 @@ html, body {
   min-width: 100%;
   margin: 0;
   padding: 0;
-  background: salmon;
+  background: #3484C1;
 }
 
 .heading {
   min-width: 100%;
   min-height: 100vh;
-  background-color: salmon;
+  background-color: #3484C1;
   background-attachment: fixed;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
@@ -43,5 +43,8 @@ html, body {
   margin-bottom: 10px;
 }
 .cardbg {
-  background-color: lightgreen;
+  background-color: #C13301;
+}
+.list-group-item{
+  background-color: #F53800;
 }
