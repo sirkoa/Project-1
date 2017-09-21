@@ -23,7 +23,8 @@ html, body {
 
 .heading-content {
   padding: 5%;
-  background: rgba(0, 128, 128, 0.9);
+  background: #3484C1;
+  background: rgba(0, 0, 50, 0.1);
   border: 12px double white;
 }
 

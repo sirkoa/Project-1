@@ -187,7 +187,7 @@ $(document).ready(function () {
 
       // 3) CREATE A <ul> TAG AND ADD CLASSES "list-group list-group-flush" (LOOK THIS UP IN BOOTSTRAP V4)
       var listgroup = $("<ul>")
-      listgroup.addClass("list-group list-group-flush listbg")
+      listgroup.addClass("list-group list-group-flush")
 
 
       // 4) LOOP OVER RETURNED TONES ARRAY (WHICH YOU STORED INTO A VARIABLE) AND FOR EACH ITERATION OF THE LOOP...
