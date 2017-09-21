@@ -49,3 +49,11 @@ html, body {
 .list-group-item{
   background-color: #F53800;
 }
+.btn-outline.info{
+  color: #3484C1;
+  border-color: #3484C1;
+}
+.btn-outline-info:hover{
+  background-color: #3484C1;
+  border-color: #3484C1;
+}
